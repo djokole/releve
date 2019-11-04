@@ -1,0 +1,190 @@
+@font-face {
+		font-family: BellyBetty;
+		src:url("fonts/BellyBetty.ttf");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Poppins !important;
+}
+
+body {
+    background-image: url("../img/cover2.jpg");
+    background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: #53495A;
+}
+
+.logo {
+    line-height: 40px;
+    float: left;
+    margin: 1.2em 0 0 2.2em;
+    font-weight: bolder;
+    color: #53495A;
+}
+
+.nav {
+		background-color: rgba(255,255,255,.5);
+    line-height: 40px;
+    margin: 1.2em;
+    position: absolute;
+    right: 0;
+    border-radius: 1.5em;
+}
+
+.nav ul li {
+		font-size: 26px; 
+		opacity: 1;
+	  list-style: none;
+	  display: inline-block;
+	  color: #53495A;
+	  text-decoration: none;
+	  padding-right: 36px;
+}
+
+.nav ul {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.nav:hover {
+		background-color: rgba(255,255,255,.85);
+}
+.nav ul li:hover {
+	position: relative;
+	top: -12%;
+	color: #FBAFB3; 
+}
+
+.nav ul li a:hover {
+	text-decoration: none;
+	color: pink;
+}
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-media ul li {
+    list-style: none;
+    color: #53495A;
+    padding-top: 20px;
+}
+
+.side-strip {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -4em;
+    transform: rotate(90deg);
+    color: #53495A;
+    letter-spacing: 4px;
+}
+
+.header {
+		color: #413853;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+		text-align: center;
+}
+
+.header h1 {
+
+		font-family: BellyBetty;
+		font-size: 100px;
+    color: #53495A;
+    font-weight: bolder;
+
+}
+
+.header p {
+    color: #53495A;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.header button {
+    margin-top: 12px;
+    border: none;
+    padding: 12px 32px;
+    background: #FBAFB3;
+    color: #53495A;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.bottom-bar {
+    color: #000;
+    position: absolute;
+    top: 50%;
+    width: 54%;
+    left: 23%;
+}
+
+
+.row {
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    border: 2px solid;
+    border-radius: 25px;
+    opacity: 0.7;
+    min-height: 250px;
+    text-align: center;
+}
+
+.bottom-bar h6 {
+		font-size: 1.6em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.bottom-bar p {
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #f7b5b9;
+    top: 0%:
+}
+
+.overlay h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 12px;
+}
+#logo {
+		position: absolute;
+		left: 47%;
+		width: 6%;
+}
+
+/*#logo:hover {
+	transform: rotateZ(360deg);
+	transition-duration: 2s;
+}*/
+
+.dij {
+	position: relative;
+	width: 35%;
+}
+
+
